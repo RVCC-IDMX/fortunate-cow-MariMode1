@@ -1,9 +1,7 @@
 // fortune.js - Fortunate Cow
+
 import * as cowsay from "cowsay";
 
-// YOUR FORTUNES: Replace these with your own!
-// Pick a theme that interests you: motivational quotes, coding tips,
-// jokes, song lyrics, advice to your future self — whatever you want.
 
 // Lana Del Rey - White Mustang lyrics:https://genius.com/Lana-del-rey-white-mustang-lyrics
 
@@ -15,6 +13,7 @@ const fortunes = [
 
 
 // Pick a random fortune
+
 const randomIndex = Math.floor(Math.random() * fortunes.length);
 const todaysFortune = fortunes[randomIndex];
 
@@ -23,12 +22,12 @@ const todaysFortune = fortunes[randomIndex];
 const moods = ["oo", "^^", "--"];
 const randomMood = moods[Math.floor(Math.random() * moods.length)];
 
-// Display a White Mustang 
+// Display a Mustang 
 
 console.log(
   cowsay.say({ 
     text: todaysFortune, 
-    f: "Whote Mustang",
+    f: "Mustang",
     e: randomMood,
   })
 );
