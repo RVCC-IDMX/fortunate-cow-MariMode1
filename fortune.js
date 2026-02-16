@@ -22,12 +22,12 @@ const todaysFortune = fortunes[randomIndex];
 const moods = ["oo", "^^", "--"];
 const randomMood = moods[Math.floor(Math.random() * moods.length)];
 
-// Display a Mustang 
+// Display a Mustang; didn't work 
 
 console.log(
   cowsay.say({ 
     text: todaysFortune, 
-    f: "horse",
+    f: "dragon",
     e: randomMood,
   })
 );
