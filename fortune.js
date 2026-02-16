@@ -17,7 +17,7 @@ const fortunes = [
 const randomIndex = Math.floor(Math.random() * fortunes.length);
 const todaysFortune = fortunes[randomIndex];
 
-// Mood Feature for the Mustang
+// Mood Feature for the dragon
 
 const moods = ["oo", "^^", "--"];
 const randomMood = moods[Math.floor(Math.random() * moods.length)];
