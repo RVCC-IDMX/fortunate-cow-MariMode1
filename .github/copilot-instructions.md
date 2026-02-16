@@ -16,4 +16,8 @@ You are helping a JavaScript beginner (~3 weeks experience) work on a Node.js sc
 
 ## Your instructions
 
-Add your own instructions below this line (as many as you want to experiment with):
+- Always use arrow functions.
+- Add a comment above each variable. 
+- Use small code snippets for examples.
+- Keep suggested features simple. 
+
