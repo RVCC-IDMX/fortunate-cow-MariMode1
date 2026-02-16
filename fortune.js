@@ -13,6 +13,7 @@ const fortunes = [
   "The day I saw your White Mustang.",
 ];
 
+
 // Pick a random fortune
 const randomIndex = Math.floor(Math.random() * fortunes.length);
 const todaysFortune = fortunes[randomIndex];
