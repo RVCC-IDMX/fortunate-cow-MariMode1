@@ -27,7 +27,7 @@ const randomMood = moods[Math.floor(Math.random() * moods.length)];
 console.log(
   cowsay.say({ 
     text: todaysFortune, 
-    f: "Mustang",
+    f: "horse",
     e: randomMood,
   })
 );
